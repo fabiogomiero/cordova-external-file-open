@@ -1,0 +1,2 @@
+cordova-external-file-open
+==========================
