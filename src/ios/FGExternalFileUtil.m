@@ -1,6 +1,6 @@
 //
-//  CDVOpenWith.m
-//  OpenWith
+//  FGExternalFileUtil.m
+//  FGExternalFileUtil
 //
 //	Created by Fabio Gomiero on 4/20/13.
 //  Based on Andrew Trice (8/15/12).

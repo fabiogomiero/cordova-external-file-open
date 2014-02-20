@@ -1,6 +1,6 @@
 //
-//  CDVOpenWith.h
-//  OpenWith
+//  FGExternalFileUtil.h
+//  FGExternalFileUtil
 //
 //	Created by Fabio Gomiero on 4/20/13.
 //  Based on Andrew Trice (8/15/12).
@@ -18,7 +18,7 @@
 //  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 
-#import <Cordova/CDV.h>
+#import <Cordova/CDVPlugin.h>
 
 #define KEY_WIDTH_VIEW      @"viewWidth"
 #define KEY_HEIGHT_VIEW     @"viewHeight"
