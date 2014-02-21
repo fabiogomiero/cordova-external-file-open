@@ -11,7 +11,7 @@
 	
     <engines>
         <engine name="cordova" version=">=3.0.0" />
-    </engines>    
+    </engines>
 	
 	<!-- ios -->
 	<platform name="ios">
