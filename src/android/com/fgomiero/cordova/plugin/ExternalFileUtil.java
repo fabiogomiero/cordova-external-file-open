@@ -44,7 +44,10 @@ public class ExternalFileUtil extends CordovaPlugin {
 	 */
 	private void openFile(String url) throws IOException {
 		// Create URI
-		Uri uri = Uri.parse(url);
+		final CordovaResourceApi resourceApi = webView.getResourceApi();
+
+		Uri tmpTarget = Uri.parse(url);
+		final Uri uri = resourceApi.remapUri(tmpTarget.getScheme() != null ? tmpTarget : Uri.fromFile(new File(url)));
 
 		Intent intent = null;
 		// Check what kind of file you are trying to open, by comparing the url with extensions.
