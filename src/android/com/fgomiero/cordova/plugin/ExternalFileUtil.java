@@ -3,6 +3,7 @@
  */
 package com.fgomiero.cordova.plugin;
 
+import java.io.File;
 import java.io.IOException;
 
 import org.apache.cordova.CallbackContext;
